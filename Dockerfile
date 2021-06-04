@@ -1,4 +1,4 @@
-FROM google/golang:1.16
+FROM golang:1.16
 
 RUN go get golang.org/x/tools/cmd/godoc
 
